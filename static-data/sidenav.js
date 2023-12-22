@@ -495,12 +495,18 @@ const sidenav = [
       },
       {
         id: 1503,
+        label: "Email setting",
+        icon: <ActivitySquare className="w-5 h-5" />,
+        to: "/settings/email",
+      },
+      {
+        id: 1504,
         label: "SMS Template",
         icon: <ActivitySquare className="w-5 h-5" />,
         to: "/settings/sms-template",
       },
       {
-        id: 1504,
+        id: 1505,
         label: "Email Template",
         icon: <ActivitySquare className="w-5 h-5" />,
         to: "/settings/email-template",
